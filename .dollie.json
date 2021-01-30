@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "name": "$typescript_integration$",
+      "type": "list",
+      "message": "Do you want to use TypeScript?",
+      "choices": [
+        {
+          "name": "I want to keep using JavaScript",
+          "value": "null"
+        },
+        {
+          "name": "I want to use TypeScript instead",
+          "value": "react-ts"
+        }
+      ],
+      "default": "null"
+    },
+    {
+      "name": "$css_preprocessor$",
+      "type": "list",
+      "message": "Select a CSS preprocessor",
+      "choices": [
+        {
+          "name": "I do not want to use any preprocessor",
+          "value": "null"
+        },
+        {
+          "name": "Sass/Scss",
+          "value": "react-sass"
+        },
+        {
+          "name": "Less",
+          "value": "react-less"
+        },
+        {
+          "name": "Stylus",
+          "value": "react-stylus"
+        }
+      ],
+      "default": "null"
+    },
+    {
+      "name": "$global_state$",
+      "type": "list",
+      "message": "Select a global state manager",
+      "choices": [
+        {
+          "name": "I do not want to use any state manager",
+          "value": "null"
+        },
+        {
+          "name": "`redux` with `react-redux`",
+          "value": "react-redux"
+        },
+        {
+          "name": "dva",
+          "value": "react-dva"
+        }
+      ],
+      "default": "null"
+    }
+  ],
+  "installers": []
+}
