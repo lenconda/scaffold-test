@@ -50,11 +50,11 @@
           "value": "null"
         },
         {
-          "name": "`redux` with `react-redux`",
+          "name": "Redux & React Redux",
           "value": "react-redux"
         },
         {
-          "name": "dva",
+          "name": "Dva.js",
           "value": "react-dva"
         }
       ],
