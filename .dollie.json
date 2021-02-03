@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "name": "$typescript_integration$",
+      "name": "$DEPENDS_ON$",
       "type": "list",
       "message": "Do you want to use TypeScript?",
       "choices": [
@@ -17,7 +17,7 @@
       "default": "null"
     },
     {
-      "name": "$css_preprocessor$",
+      "name": "$DEPENDS_ON$",
       "type": "list",
       "message": "Select a CSS preprocessor",
       "choices": [
@@ -41,7 +41,7 @@
       "default": "null"
     },
     {
-      "name": "$global_state$",
+      "name": "$DEPENDS_ON$",
       "type": "list",
       "message": "Select a global state manager",
       "choices": [
