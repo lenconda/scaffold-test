@@ -14,13 +14,17 @@ module.exports = {
     },
   },
   rules: {
-    indent: [
-      'error',
-      2
-    ],
+    indent: ['error', 2, { ignoredNodes: ['JSXElement *'] }],
     'react/jsx-indent-props': [
       'error',
       2
+    ],
+    'semi': [
+      'error',
+      'always',
+      {
+        omitLastInOneLineBlock: true
+      }
     ],
     'comma-dangle': ['error', 'always-multiline'],
     'react/jsx-indent': [
